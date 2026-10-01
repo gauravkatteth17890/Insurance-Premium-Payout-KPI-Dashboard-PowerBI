@@ -350,49 +350,6 @@ The dashboard can be used to identify insights such as:
 
 ---
 
-## 📁 Recommended GitHub Repository Structure
-
-```text
-Insurance-Payout-Premium-Dashboard/
-│
-├── README.md
-│
-├── Power BI/
-│   └── Insurance Payout & Premium Dashboard.pbix
-│
-├── Data/
-│   └── source_data.xlsx
-│
-├── Screenshots/
-│   ├── summary.png
-│   ├── insurance-overview.png
-│   ├── investment-vs-maturity.png
-│   ├── premium-vs-protection.png
-│   ├── premium-analysis.png
-│   └── sales-hierarchy.png
-│
-└── Documentation/
-    └── project-notes.md
-```
-
-If the source data is confidential or licensed, **do not upload the original dataset**. Upload a sanitized/sample dataset instead.
-
----
-
-## 🚀 How to Use the Dashboard
-
-1. Download the `.pbix` file from this repository.
-2. Open it using **Power BI Desktop**.
-3. If Power BI requests the original data source, update the data-source path.
-4. Refresh the dataset if the source data is available.
-5. Navigate through the six report pages.
-6. Use slicers to filter the portfolio.
-7. Use the dynamic parameters where available.
-8. Hover over charts to inspect detailed values.
-9. Use cross-filtering and drill-down interactions to investigate specific segments.
-
----
-
 ## 📌 Project Workflow
 
 ```text
@@ -439,51 +396,6 @@ This project demonstrates practical experience in:
 
 ---
 
-## 💼 Resume / Portfolio Description
-
-**Insurance Payout & Premium Analytics Dashboard — Power BI**
-
-> Developed an interactive Power BI dashboard to analyze insurance premiums, payments, protection values, maturity outcomes, customer segments, and sales hierarchy. Built a dimensional data model and DAX-based KPIs to analyze premium collection, payable amounts, investment versus maturity value, annual premium versus coverage, payment completion, policy tenure, and sales performance. Implemented interactive slicers and parameter-driven visuals to support multi-dimensional portfolio analysis and business decision-making.
-
----
-
-## 🎤 Interview Talking Points
-
-### Situation
-
-The insurance dataset contained policy, premium, customer, protection, maturity, and sales information that needed to be converted into a structured analytical dashboard.
-
-### Task
-
-The objective was to build an interactive Power BI solution that could provide both an executive summary and detailed analysis of insurance portfolio performance.
-
-### Action
-
-- Cleaned and structured the data using Power Query.
-- Designed a dimensional data model.
-- Created relationships between fact and dimension tables.
-- Developed DAX measures for premium, payment, maturity, protection, ROI and other KPIs.
-- Created multiple analytical report pages.
-- Added slicers and dynamic parameters.
-- Designed visuals for premium, maturity, protection, customer and sales analysis.
-- Applied an active-policy reporting context.
-
-### Result
-
-Created a multi-page interactive dashboard that allows users to move from high-level portfolio KPIs to detailed policy, customer, premium-payment, protection and sales-hierarchy analysis.
-
----
-
-## ⚠️ Data & Usage Notes
-
-- This project is intended for **portfolio, learning, and demonstration purposes**.
-- Financial values and insights depend on the underlying dataset.
-- The dashboard should not be interpreted as financial, insurance, investment, or actuarial advice.
-- If real customer information is present in the source data, sensitive information should be removed or anonymized before publishing to GitHub.
-- The PBIX file may require the original data source or a refreshed data connection to reproduce the report.
-
----
-
 ## 👨‍💻 Author
 
 **Gaurav Singh**
@@ -507,7 +419,3 @@ Created a multi-page interactive dashboard that allows users to move from high-l
 - Interactive filtering and cross-analysis
 
 ---
-
-## 📄 License
-
-This project is intended for educational and portfolio demonstration purposes. If the underlying dataset belongs to a third party, its original licensing and usage restrictions continue to apply.
